@@ -1,0 +1,7 @@
+{
+     "baseUrl": "https://opensource-demo.orangehrmlive.com/",
+     "chromeWebSecurity": false,
+     "integrationFolder": "cypress/integration/",
+     "screenshotOnRunFailure": true,
+     "screenshotsFolder": "cypress/integration/screenshots"
+}

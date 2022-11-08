@@ -1,0 +1,20 @@
+[
+  {
+    "firstName": "sachin",
+    "lastName": "datir",
+    "email": "sdatir83@gmail.com",
+    "message": "i am learning cypress"
+  },
+  {
+    "firstName": "pankaj",
+    "lastName": "more",
+    "email": "sdatir83@gmail.com.io",
+    "message": "i am learning fixture"
+  },
+  {
+    "firstName": "rahul",
+    "lastName": "gunjal",
+    "email": "sdatir83@gmail.com.io",
+    "message": "i am lerning fixture in cypress"
+  }
+]

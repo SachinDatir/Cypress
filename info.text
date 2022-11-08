@@ -1,0 +1,29 @@
+npm init
+npm install cypress@9.7
+npm install npx
+npx cypress open
+
+npx cypress run --spec 'cypress\integration\15-screenshot\wrap2.spec.js'
+
+
+   "screenshotsFolder":"cypress/integration/15-screenshot"
+
+
+   actual ==system (diff bet actual vs expected)
+   expected==document
+
+   7 prin of testing
+   (1)testing should start as early as  posible ==>at a time of requaiment analysis
+   (2)testing is context dependent==>
+   prority ==>urgency of fixing bug
+
+   3 exhaustive testing not possible
+   4=absence of error iss fallacy==>end user should be satisfy
+   5=testing always shows the presense of defect==>
+   6=defect clustering -> defect area
+   7=pesticide perodox==> testing tech change 
+
+
+   page object model (pom) ==>repitative code reduce 
+   //element store ,create only one functionality
+   like function call for avoid repetative code  writing
