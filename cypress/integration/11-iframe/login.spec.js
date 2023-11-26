@@ -10,7 +10,6 @@ describe('verify the login functionality', function () {
 
     })
 
-
     it.only('validate login with invalid credentials', function () {
         cy.visit('https://opensource-demo.orangehrmlive.com/index.php/auth/login')
         cy.get('#txtUsername').type('Admin')

@@ -35,4 +35,9 @@ describe(' verify the iframe elementin cypress', () => {
             cy.get('@body').find('a[href ="../Contact-Us/contactus.html"]').should('have.text', 'Contact Us')
         })
     })
+    it('by using cypress plugins', () => {
+        // we need to install it 
+        // https://www.npmjs.com/package/cypress-iframe
+        // npm install -D cypress-iframe
+    })
 })

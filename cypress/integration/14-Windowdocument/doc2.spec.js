@@ -23,5 +23,6 @@ describe('verify the title', () => {
         cy.viewport('macbook-11', "landscape")
         cy.viewport('ipad-2', "landscape")
         cy.viewport(1000, 5000, "landscape")
+        cy.screenshot()
     })
 })
